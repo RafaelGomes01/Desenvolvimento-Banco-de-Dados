@@ -34,7 +34,7 @@ Esse projeto busca trazer alguns conhecimentos apredidos por mim na area de banc
 ### Principais metodos vistos 📶
 <p id="tec">
 
-♦️ <a href="https://github.com/RafaelGomes01/Developer-with-C-Sharp/tree/main/1%20-%20Introdu%C3%A7%C3%A3o%20ao%20C%23"> 1 - Introdução ao C# </a>
+♦️ <a href="https://github.com/RafaelGomes01/Desenvolvimento-Banco-de-Dados/tree/main/Exercicios/01%20-%20Modelo%20de%20Entidade%20Relacional"> 1 - Modelagem do Banco de Dados - Visualmente </a>
 
 
 <!-- Para Acessar -->

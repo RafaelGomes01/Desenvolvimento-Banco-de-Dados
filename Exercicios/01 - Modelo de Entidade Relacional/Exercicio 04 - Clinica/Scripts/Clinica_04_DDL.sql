@@ -12,7 +12,7 @@ CREATE TABLE Veterinarios(
 	idVeterinario INT PRIMARY KEY IDENTITY,
 	idClinica INT FOREIGN KEY REFERENCES Clinicas (idClinica),
 	nome  TEXT NOT NULL,
-	CRMV TEXT NOT NULL
+	CRMV INT NOT NULL
 );
 
 CREATE TABLE TiposPets(
@@ -23,12 +23,12 @@ CREATE TABLE TiposPets(
 CREATE TABLE Racas(
 	idRaca INT PRIMARY KEY IDENTITY,
 	idTipoPet INT FOREIGN KEY REFERENCES TiposPets (idTipoPet),
-	nome TEXT NOT NULL,
+	descricao TEXT NOT NULL,
 );
 
 CREATE TABLE Donos(
 	idDono INT PRIMARY KEY IDENTITY,
-	descricao TEXT NOT NULL,
+	nome TEXT NOT NULL,
 );
 
 CREATE TABLE Pets(
@@ -46,11 +46,3 @@ CREATE TABLE Atendimentos(
 	descriçao TEXT NOT NULL,
 	dataAtendimento TEXT NOT NULL,
 );
-
-SELECT * FROM Clinicas;
-SELECT * FROM Veterinarios;
-SELECT * FROM Atendimentos;
-SELECT * FROM Pets;
-SELECT * FROM Donos;
-SELECT * FROM Racas;
-SELECT * FROM TiposPets;
